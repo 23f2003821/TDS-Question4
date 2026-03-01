@@ -2,8 +2,8 @@ name: Daily Repo Update
 
 on:
   schedule:
-    - cron: '5 3 * * *'   # Runs daily at 03:05 UTC
-  workflow_dispatch:      # Allows manual run
+    - cron: '7 4 * * *'   # Runs daily at 04:07 UTC
+  workflow_dispatch:
 
 jobs:
   update:
